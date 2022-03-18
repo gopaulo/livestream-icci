@@ -1,0 +1,52 @@
+@font-face {
+ 	font-family: Roboto;
+ 	src: url(Roboto-Black.ttf);
+ 	font-weight: bold;
+}
+
+body, 
+html,
+figure {
+	margin: 0px;
+	padding: 0px;
+}
+nav#nav {
+	background: #000 !important;
+}
+nav#nav figure {
+	padding: 10px;
+	text-align: center;
+}
+nav#nav figure img {
+	max-width: 315px;
+}
+article#head_logo {
+	background-image: url('coach_talks_hero_BG.jpeg');
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 310px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+article#head_logo img {
+	max-width: 681px;
+}
+main#content {
+	text-align: center;
+	padding: 60px 30px;
+}
+main#content h1 {
+	font-family: 'Roboto';
+	font-weight: bold;
+	color: #0069A4;
+	font-size: 53px;
+}
+
+@media screen and (min-width: 600px){
+	main#content h1 {
+		font-size: 35px;
+	}
+}
