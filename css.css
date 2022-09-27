@@ -4,41 +4,44 @@ body,figure,html {margin:0;padding:0}
 nav#nav {background:#000!important}
 nav#nav figure {padding:10px;text-align:center;}
 nav#nav figure img {max-width:315px;}
-article#head_logo {
-  background-color:#eee;
-  background-image: url('icci_live_bg_livestream.jpg');
-  background-position:center center;
-  background-repeat:no-repeat;
-  background-size:cover;
-  height:400px;
-  text-align:center;
-  display:flex;
-  flex-direction:column;
-  justify-content:center
-}
+article#head_logo {background-color:#eee;background-image: url('icci_live_bg_livestream.jpg');background-position:center center; background-repeat:no-repeat; background-size:cover; height:400px; text-align:center; display:flex; flex-direction:column; justify-content:center;}
 article#head_logo figure {margin:70px; text-align:center; display:block;}
 article#head_logo img {width:640px}
+
 main#content .links a {display:block;color:#0069a4!important}
-main#content .links a:hover {text-decoration:underline}
-main#content .links p {font-family:roboto;font-weight:400;font-size:18px;color:#5e5e5e}
-main#content {max-width:1030px;margin:0 auto!important;text-align:center;padding:50px 60px;word-wrap: break-word;}
-main#content h1 {margin-bottom:30px;font-family:Roboto; font-weight:900;color:#0069a4;font-size:53px;margin-top:0;line-height: 54px;}
-main#content h2 {text-align: center; color: #000; font-family: 'Roboto', sans-serif; font-size: 32px; font-weight: 400;line-height: 38px;}
-main#content div.video {margin-top: 30px;margin-bottom: 50px;padding: 56.25% 0 0 0;width:100%;position: relative;}
+main#content a:hover {text-decoration:underline}
+main#content a:visited {color:#0069a4 !important}
+main#content a.button {border: none; border-radius: 50px; background-color: #2A7FDF; color: #ffffff; font-size: 20px;padding: 30px; text-align: center; display: inline-block; text-decoration: none;}
+main#content a.button:hover {text-decoration:none;}
+main#content a.button:visited {color:#ffffff !important}
+
+main#content p {color:#242424; font-weight:400; font-size:20px; line-height: 1.5em;}
+main#content .links p {color:#5e5e5e;}
+main#content {max-width:1030px;margin:0 auto!important; font-family: 'Roboto', sans-serif; text-align:center;padding:50px 60px;word-wrap: break-word;}
+main#content h1 {margin-top:20px;margin-bottom:30px; font-weight:900;color:#0069a4;font-size:53px;line-height: 54px;}
+main#content h2 {text-align: center; color: #000; font-size: 32px; font-weight: 400;line-height: 38px;}
+main#content div.video {margin-top: 30px;margin-bottom: 90px;padding: 56.25% 0 0 0;width:100%;position: relative;}
 main#content iframe {position: absolute;top: 0;left: 0;width: 100%;height: 100%;max-width: 100%;margin: 0;line-height: 1;border: none;}
-main#content .container {margin-bottom:30px;display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));}
-main#content .section {margin-top:20px;margin-bottom:20px;padding: 30px;border: 0;background-color:#0167a9;color:#ffffff;font-family: 'Roboto', sans-serif; font-size: 19px; font-weight: 300; line-height: 28px;}
+main#content .container {margin-bottom:60px;display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));}
+main#content .section {margin-top:20px; margin-bottom:20px; padding: 30px; border: 0; background-color:#0167a9; color:#ffffff; font-size: 19px; font-weight: 300; line-height: 28px;}
+main#content .section p {color:#ffffff;}
 main#content .section.col1 {margin-right: 13px;}
 main#content .section.col2 {margin-right: 13px;margin-left: 13px;}
 main#content .section.col3 {margin-left: 13px;}
 main#content .title {font-size: 36px; font-weight: 600;}
+main#content div.video {margin-top: 30px;margin-bottom: 70px;padding: 56.25% 0 0 0;width:100%;position: relative;}
 main#content .container figure {width:100%;margin-top: 10px;margin-bottom: 10px;}
 main#content .container img {width:111px;}
-main#content .savings {color:#fae603;font-size: 25px; font-weight: 500;}
+main#content .savings {color:#faes603;font-size: 25px; font-weight: 500;}
 main#content .coupon {margin-top:38px;border: 1px solid; border-color: #ffffff; padding: 18px 10px;font-size: 25px; font-weight: 500;}
-main#content .coupon.nudgeup {margin-top:66px;}
+main#content .coupon.nudgeup {margin-top:98px;}
 main#content .section a {display:block;color:#ffffff!important}
 main#content .section a:hover {text-decoration:none;}
+article#comp_logo img {margin-top:0px;margin-bottom:30px;width:400px}
+
+@media only screen and (max-width:840px){
+  span#break-small {display:block;}
+}
 
 @media only screen and (max-width:788px){
   article#head_logo {height:310px}
@@ -50,4 +53,5 @@ main#content .section a:hover {text-decoration:none;}
   main#content .section.col2 {margin-right: 0;margin-left: 0;}
   main#content .section.col3 {margin-left: 0;}
   main#content .coupon.nudgeup {margin-top:38px;}
+  article#comp_logo img {width:320px}
 }
