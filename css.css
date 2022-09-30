@@ -8,7 +8,7 @@ article#head_logo {background-color:#eee;background-image: url('icci_live_bg_liv
 article#head_logo figure {margin:70px; text-align:center; display:block;}
 article#head_logo img {width:640px}
 
-main#content a {color:#0069a4!important;text-decoration:underline}
+main#content a {color:#0069a4!important;text-decoration:underline;}
 main#content a:hover {text-decoration:underline}
 main#content a:visited {color:#0069a4 !important}
 main#content a.button {border: none; border-radius: 50px; background-color: #2A7FDF; color: #ffffff; font-size: 20px;padding: 30px; text-align: center; display: inline-block; text-decoration: none;}
